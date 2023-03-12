@@ -30,10 +30,10 @@ function App() {
   // the last element or 2nd element inside the usestate fn updates the 1st element
 
   function increase() {
-    setCount(count + 1);
+    setCount(count + 1);   // count 0 theke +1 korche
   }
   function decrease() {
-    setCount(count - 1);
+    setCount(count - 1);   //  // count 0 theke -1 korche
   }
 
   return (
